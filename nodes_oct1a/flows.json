@@ -1,0 +1,72 @@
+[
+    {
+        "id": "34f02c6c93d2504e",
+        "type": "ui_chart",
+        "z": "69ef06e3f2f20e4f",
+        "name": "Chart Historis DB",
+        "group": "91b4a31d4582197a",
+        "order": 14,
+        "width": 24,
+        "height": 9,
+        "label": "Data Historis MySQL",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Belum ada data",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "0",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#e74c3c",
+            "#3498db",
+            "#000000",
+            "#000000",
+            "#000000",
+            "#000000",
+            "#000000",
+            "#000000",
+            "#000000"
+        ],
+        "outputs": 1,
+        "useDifferentColor": true,
+        "className": "",
+        "x": 1110,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91b4a31d4582197a",
+        "type": "ui_group",
+        "name": "Sensor",
+        "tab": "35da256aea17bcc5",
+        "order": 1,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "35da256aea17bcc5",
+        "type": "ui_tab",
+        "name": "IoT Dashboard",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cc7c4b198e01afe4",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
